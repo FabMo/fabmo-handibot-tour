@@ -1,0 +1,15 @@
+{
+	"name": "Handibot-Tour",
+	"main": "./index.html",
+	"icon": "icon.png",
+	"icon_color": "#313366",
+	"version": "0.0.1",
+	"author": "Brendan Collins",
+	"website": "http://shopbottools.com",
+	"id": "tour",
+	"description": "Tour for your handibot",
+	"dependencies": {
+		"grunt": "^1.0.1",
+		"grunt-zip": "^0.17.1"
+	}
+}
