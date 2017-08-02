@@ -219,7 +219,7 @@ function setNext(obj, counter){
 
 function DoJobFile () {
   var sbp = "";
-  var jobPath = 'jobs/test_carve.sbp';
+    var jobPath = 'jobs/test_carve.sbp';
   
   jQuery.get(jobPath, function(data) {
       sbp += data;
@@ -229,12 +229,19 @@ function DoJobFile () {
       jobPath = jobPath.replace('.sbp', '');
     // sbp += 'end\n';
     // sbp += "'a FabMo load\n";
-      fabmo.submitJob({
-        file: sbp,
-        filename: 'test_01' + '.sbp',
-        name: "test_01",
-        description: "Test cut to test tool"
-      });
+        fabmo.clearJobQueue(function(err,data){
+            if (err) {
+                console.log(err);
+            } else {
+                fabmo.submitJob({
+                    file: sbp,
+                    filename: 'test_01' + '.sbp',
+                    name: "test_01",
+                    description: "Test cut to test tool"
+                }, {stayHere : true});
+                fabmo.launchApp('job-manager', {'from_tour' : true});
+            }
+        });
     })
 }
 
