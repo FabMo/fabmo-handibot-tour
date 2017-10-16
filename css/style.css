@@ -3,7 +3,7 @@
     width: 100%;
     white-space: nowrap;
     position: fixed;
-    top: 30px;
+    top: 40px;
     transition: left 0.4s linear;
     margin: 0;
     padding: 0;
@@ -16,14 +16,14 @@
     width: 100%;
     top: 0;
     color: #111;
-    height: 30px;
+    height: 40px;
     font-family: source_sans_proextralight;
     background-color: #FFFFFF;
 }
 
 .tour-decloration p {
     text-align: center;
-    line-height: 30px;
+    line-height: 20px;
 }
 
 .tour-card {
@@ -155,11 +155,17 @@ p {
 }
 
 @media screen and (max-width: 480px) { 
+    .image-container{
+        height: 40%;
+    }
+    .contentP{
+        height: 60%;
+    }
     h4 {
         font-size: 1rem;
     }
     p{
-        font-size: 12px;
+        font-size: 13px;
         line-height: 1rem;
     }
     .card-action{
