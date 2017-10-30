@@ -19,7 +19,7 @@ var content = [
     },
      {
         "id": "2",
-        "video": "images/foam1.mp4",
+        "video": "images/foam1.webm",
         "header": "First Raise Height of the Z-axis",
         "text": "Your Handibot will hit it's Z-Max and make a loud noise. This is normal. Remove the protective foam circle.",
         "actionText" : "Raise Z",
@@ -27,7 +27,7 @@ var content = [
     },
     {
          "id": "3",
-        "video": "images/cutterlength2.mp4",
+        "video": "images/cutterlength2.webm",
         "header": "Z-Zero",
         "text": "Next we remeasure your cutting bit length. We did this at the factory, but things can move in shipping and it's good to learn how to do. This will ensure that your Z-Zero is correct. You will also want to do this everytime you change bits.",
         "actionText" : "Z-Zero",
@@ -35,7 +35,7 @@ var content = [
     },
     {
         "id": "4",
-        "video": "images/home1.mp4",
+        "video": "images/home1.webm",
         "header": "Home Your Tool",
         "text": "Your X, Y, & Z are already zeroed from the last step, but lest's say you accidentally crashed your tool into your X, Y, or Z. This will cause your tool to loose position. If you haven't changed your bit you can just home it to re-zero your axes. Lets show you what that looks like.",
         "actionText" : "Home Tool",
@@ -43,7 +43,7 @@ var content = [
     },
     {
         "id": "5",
-        "video": "images/testcut.mp4",
+        "video": "images/testcut.webm",
         "header": "Run Test File",
         "text": "Finally we are going to run a test cut. We did this cut at the factory so you can compare your cut with our cut too make sure that you are running your tool correctly. Clicking the button will submit a job and take you to the Job Manager, where you can continue the tour",
         "actionText" : "Submit Test Cut",
