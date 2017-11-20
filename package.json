@@ -3,7 +3,7 @@
 	"main": "./index.html",
 	"icon": "images/Handibot.png",
 	"icon_color": "#ffffff",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"author": "Brendan Collins",
 	"website": "http://shopbottools.com",
 	"id": "tour",

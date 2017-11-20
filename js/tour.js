@@ -17,8 +17,17 @@ var content = [
         "action": ""
  
     },
-     {
+    {
         "id": "2",
+        "image": "images/authorize2.png",
+        "header": "To Carry Out the Actions Illustrated in the Following Steps",
+        "text": "First click the green bar here, and then hit the green 'Authorize' button on your Handibot",
+        "actionText" : "",
+        "action": ""
+ 
+    },
+     {
+        "id": "3",
         "video": "images/foam1.webm",
         "header": "First Raise Height of the Z-axis",
         "text": "Your Handibot will hit it's Z-Max and make a loud noise. This is normal. Remove the protective foam circle.",
@@ -26,7 +35,7 @@ var content = [
         "action": function() {fabmo.runSBP('ZZ\nMS3,3\nMZ,2')}
     },
     {
-         "id": "3",
+         "id": "4",
         "video": "images/cutterlength2.webm",
         "header": "Z-Zero",
         "text": "Next we remeasure your cutting bit length. We did this at the factory, but things can move in shipping and it's good to learn how to do. This will ensure that your Z-Zero is correct. You will also want to do this everytime you change bits.",
@@ -34,7 +43,7 @@ var content = [
         "action": function() {fabmo.runSBP('C#,2')}
     },
     {
-        "id": "4",
+        "id": "5",
         "video": "images/home1.webm",
         "header": "Home Your Tool",
         "text": "Your X, Y, & Z are already zeroed from the last step, but lest's say you accidentally crashed your tool into your X, Y, or Z. This will cause your tool to loose position. If you haven't changed your bit you can just home it to re-zero your axes. Lets show you what that looks like.",
@@ -42,7 +51,7 @@ var content = [
         "action": function() {fabmo.runSBP('C#,3')}
     },
     {
-        "id": "5",
+        "id": "6",
         "video": "images/testcut.webm",
         "header": "Run Test File",
         "text": "Finally we are going to run a test cut. We did this cut at the factory so you can compare your cut with our cut too make sure that you are running your tool correctly. Clicking the button will submit a job and take you to the Job Manager, where you can continue the tour",
