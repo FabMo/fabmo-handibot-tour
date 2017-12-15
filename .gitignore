@@ -1,5 +1,4 @@
 *.fma
 .DS_Store
-build
 node_modules
 dev_tools.bat
